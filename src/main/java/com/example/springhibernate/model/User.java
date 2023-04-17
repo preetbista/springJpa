@@ -1,6 +1,5 @@
 package com.example.springhibernate.model;
 
-import lombok.Generated;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -16,7 +15,7 @@ import javax.persistence.Table;
 public class User {
     @Id
     @GeneratedValue
-    private int id;
+    private Long id;
     private String name;
     private String role;
 
